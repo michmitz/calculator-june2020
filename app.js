@@ -8,14 +8,14 @@ const addInput1 = document.getElementById('add-input-1');
 // get add-input-2
 const addInput2 = document.getElementById('add-input-2');
 // get add-button
-const boogerButton = document.getElementById('add-button');
+const addButton = document.getElementById('add-button');
 // get the add-result span
-const boogerSpan = document.getElementById('add-result');
+const addSpan = document.getElementById('add-result');
 
 // initialize state 
 
 // set the event handler to the button
-boogerButton.addEventListener('click', () => {
+addButton.addEventListener('click', () => {
     // in the click event handler . . .
     // make sure we have the inputs (console.log)
     // make sure we have the span
@@ -27,7 +27,7 @@ boogerButton.addEventListener('click', () => {
     const sum = add(value1, value2);
 
     // update the textContent of the span
-    boogerSpan.textContent = sum;
+    addSpan.textContent = sum;
 });
 
 const multiplyInput1 = document.getElementById('multiply-input-1');
